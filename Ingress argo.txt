@@ -14,7 +14,7 @@ metadata:
   name: argocd-server-cli
   namespace: argocd
 spec:
-  # NOTE: the port must be ignored if you have strip_matching_host_port enabled on envoy
+  # NOTE: the port1 must be ignored if you have strip_matching_host_port enabled on envoy
   host: argocd.example.com:443
   prefix: /
   service: argocd-server:80
